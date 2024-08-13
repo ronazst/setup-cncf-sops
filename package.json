@@ -1,8 +1,8 @@
 {
-  "name": "setup-sops",
+  "name": "setup-cncf-sops",
   "description": "Setup CNCF SOPS",
   "version": "1.0.0",
-  "author": "Ronazst",
+  "author": "ronazst",
   "license": "MIT",
   "scripts": {
     "build": "tsc -noEmit src/run.ts && esbuild src/run.ts --bundle --platform=node --outfile=lib/run.js",
@@ -14,9 +14,9 @@
     "semver": "^7.6.2"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2",
+    "@types/node": "^22.1.0",
     "@types/semver": "^7.5.8",
     "esbuild": "^0.23.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.4"
   }
 }
