@@ -14,7 +14,7 @@
     "semver": "^7.6.2"
   },
   "devDependencies": {
-    "@types/node": "^22.5.2",
+    "@types/node": "^22.10.1",
     "@types/semver": "^7.5.8",
     "esbuild": "^0.23.1",
     "typescript": "^5.5.4"
